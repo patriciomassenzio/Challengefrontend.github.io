@@ -1,0 +1,25 @@
+/* LOGIN -------------------- */
+.login{
+    margin: 10rem;
+    font-family: 'Lato', sans-serif;
+    
+    justify-content: center;
+}
+
+#email, #password  {
+   
+   
+    margin-left: 5px;
+    border-bottom: rgb(5, 4, 4) solid 1px;
+}
+
+form h2{
+    margin-bottom: 10px;
+   
+    letter-spacing: 20pt;
+    font-family:  sans-serif;
+    
+}
+form input{
+    margin-bottom: 10px;
+}

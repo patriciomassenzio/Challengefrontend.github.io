@@ -1,0 +1,84 @@
+.title {
+  text-align: center;
+  font-family:  'Roboto';
+}
+
+/* ---- CARDS ---- */
+.card {
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin: 5px;
+  padding: 0;
+  background-color: #FF0000;
+  position: relative;
+  font-family:  Calibri;
+  
+  border-radius: 10px;
+}
+
+.card button {
+  color: #000000;
+    top: 0;
+    right: 0;
+    position: absolute;
+    border: none;
+    background-color: transparent 
+}
+
+.card-txt{
+  font-family:  'Roboto';
+  color: #000000;
+}
+
+/* ---- search for gender ---- */
+
+.searchBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.searchBar .btn{
+    border-radius: 0% 5% 5% 0%;
+    margin-left: 5px;
+}
+.textField{
+    border-radius: 0;
+    width: 300px;
+}
+
+/* ---- details ---- */
+.details{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    overflow: auto; 
+    max-height: 100%;
+    background-color: #FFFFFF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.details span {
+  font-weight: bold;
+}
+
+
+
+/* ---- album page ----*/
+
+.albums {
+  font-size: 2.1em;
+  color: #666666;
+}
+
+.albums span {
+  font-weight: Roboto;
+}
+
+@media only screen and (max-width: 100px) {
+  body {
+    background-color: black;
+  }
+}
+
